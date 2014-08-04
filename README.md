@@ -558,6 +558,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [Dropbox SDK](https://github.com/dropbox/dropbox-sdk-php) - The official PHP Dropbox SDK library.
 * [Twilio](https://github.com/twilio/twilio-php) - The official Twilio PHP REST API.
 * [Mailgun](https://github.com/mailgun/mailgun-php) The official Mailgun PHP API.
+* [Asana](https://github.com/ajimix/asana-api-php-class) - A library to interface with the Asana API.
 
 ## Extensions
 *Libraries to help build PHP extensions.*
@@ -612,6 +613,8 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [Lambda PHP](https://github.com/igorw/lambda-php) - A Lambda calculus interpreter in PHP.
 * [Country List](https://github.com/umpirsky/country-list) - A list of all countries with names and ISO 3166-1 codes.
 * [PHP-GPIO](https://github.com/ronanguilloux/php-gpio) - A library for playing with the Raspberry PI's GPIO pins.
+* [SmsSender](https://github.com/Carpe-Hora/SmsSender) - A SMS sending library.
+* [print_o](https://github.com/koriym/print_o) - An object graph visualizer.
 
 # Software
 *Software for creating a development environment.*
@@ -640,6 +643,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [PuPHPet](https://puphpet.com/) - A web tool for building PHP development virtual machines.
 * [Protobox](http://getprotobox.com/) - Another web tool for building PHP development virtual machines.
 * [Phansible](http://phansible.com/) - A web tool for building PHP development virtual machines with Ansible.
+* [Wasted](https://github.com/Mayflower/wasted) - A highly configurable vagrant setup for PHP development.
 
 ## Virtual Machines
 *Alternative PHP virtual machines.*
