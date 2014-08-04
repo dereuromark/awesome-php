@@ -94,6 +94,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [Phalcon](http://phalconphp.com/en/) - A framework implemented as a C extension.
 * [CakePHP](http://cakephp.org/) - A rapid application development framework.
 * [Nette](http://nette.org) - Another framework comprised of individual components.
+* [Yii2](https://github.com/yiisoft/yii2/) - A high-performance framework.
 
 ## Framework Extras
 *Extras related to web development frameworks.*
@@ -138,6 +139,9 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [MtHaml](https://github.com/arnaud-lb/MtHaml) - A PHP implementation of the HAML template language.
 * [Plates](http://platesphp.com/) - A native PHP templating library.
 * [Lex](https://github.com/pyrocms/lex) - A lightweight template parser.
+* [PHPTAL](http://phptal.org/) - A PHP implementation of the TAL templating language, orignating from the Python Zope library.
+* [Twital](https://github.com/goetas/twital) - A template engine that combines Twig and PHPTal advantages.
+* [Latte](https://github.com/nette/latte) - Customizable template engine with Context-Aware escaping.
 
 ## Static Site Generators
 *Tools for pre-processing content to generate web pages.*
@@ -154,6 +158,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [HTTPFul](https://github.com/nategood/httpful) - A chainable HTTP client.
 * [Goutte](https://github.com/fabpot/Goutte) - A simple web scraper.
 * [PHP VCR](http://php-vcr.github.io/) - A library for recording and replaying HTTP requests.
+* [Symfony HttpFoundation](https://github.com/symfony/HttpFoundation) - Defines an object-oriented layer for the HTTP specification.
 
 ## URL
 *Libraries for parsing URLs.*
@@ -197,6 +202,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [Orno Di](https://github.com/orno/di) - Another flexible dependency injection container.
 * [PHP DI](http://mnapoli.github.com/PHP-DI/) - A dependency injection implementation using annotations.
 * [Acclimate](https://github.com/jeremeamia/acclimate) - A common interface to dependency injection containers and service locators.
+* [Symfony DI Container](http://symfony.com/doc/current/components/dependency_injection/introduction.html) - The Dependency Injection Container of the Symfony Framework.
 
 ## Imagery
 *Libraries for manipulating images.*
@@ -231,6 +237,8 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [VFS Stream](https://github.com/mikey179/vfsStream) - A virtual filesystem stream wrapper for testing.
 * [VFS](https://github.com/adlawson/vfs.php) - Another virtual filesystem for testing.
 * [Locust](http://locust.io/) - A modern load test library written in Python.
+* [Nette Tester](https://github.com/nette/tester) - Enjoyable unit testing framework.
+* [AspectMock](https://github.com/Codeception/AspectMock) - A mocking framework for PHPUnit/Codeception.
 
 ## Continuous Integration
 *Libraries and applications for continuous integration.*
@@ -293,6 +301,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [PHPLOC](https://github.com/sebastianbergmann/phploc) - A tool for quickly measuring the size of a PHP project.
 * [xDebug](https://github.com/xdebug/xdebug) - A debug and profile tool for PHP.
 * [xHprof](https://github.com/phacility/xhprof) - Another profiling tool for PHP.
+* [Tracy](https://github.com/nette/tracy) - Simple error detection, logging and time measuring library.
 
 ## Build Tools
 *Project build and automation tools.*
@@ -355,6 +364,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 
 * [Monolog](https://github.com/Seldaek/monolog) - A comprehensive logger.
 * [KLogger](https://github.com/katzgrau/KLogger) - An easy-to-use PSR-3 compliant logging class.
+* [Log4PHP](https://github.com/apache/logging-log4php) - Complete logging framework from Apache.
 
 ## E-commerce
 *Libraries and applications for taking payments and building online e-commerce stores.*
@@ -494,6 +504,8 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [Hateoas](https://github.com/willdurand/Hateoas) - A HATEOAS REST web service library.
 * [HAL](https://github.com/blongden/hal) - A Hypertext Application Language (HAL) builder library.
 * [Negotiation](https://github.com/willdurand/Negotiation) - A content negotiation library.
+* [Drest](https://github.com/leedavis81/drest) - Quickly and easily expose Doctrine entities as REST resource endpoints.
+* [Luracast Restler](http://restler3.luracast.com) - A simple and effective multi-format Web API Server.
 
 ## Caching
 *Libraries for caching data.*
@@ -510,6 +522,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [Serializer](https://github.com/schmittjoh/serializer) - A library for serialising and de-serialising data.
 * [PHP Object Storage](https://github.com/herrera-io/php-object-storage) - A library for object storage.
 * [Fractal](https://github.com/php-loep/fractal) - A library for converting complex data structures to JSON output.
+* [Pinq](https://github.com/TimeToogo/Pinq) - PHP Integrated query, a real Linq library for PHP.
 
 ## Notifications
 *Libraries for working with notification software.*
