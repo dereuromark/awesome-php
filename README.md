@@ -371,6 +371,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 
 * [Snappy](https://github.com/KnpLabs/snappy) - A PDF and image generation library.
 * [WKHTMLToPDF](https://github.com/antialize/wkhtmltopdf) - A tool to convert HTML to PDF.
+* [HTML2PDF](http://html2pdf.fr/) - Another tool to convert HTML to PDF.
 
 ## ORM and Datamapping
 *Libraries that implement object-relational mapping or datamapping techniques.*
@@ -612,6 +613,9 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [PHP Switch](https://github.com/jubianchi/phpswitch) - Another version manager.
 * [PHP Build](https://github.com/CHH/php-build) - Another PHP version installer.
 * [VirtPHP](http://virtphp.org/) - A tool for creating and managing isolated PHP environments.
+* [WAMPServer](http://www.wampserver.com/) - A Apache, Mysql, PHP manager.
+* [EasyPHP](http://www.easyphp.org/) - A Apache, Mysql, PHP manager.
+* [LAMP](http://doc.ubuntu-fr.org/lamp) - A Linux Apache, Mysql, PHP manager
 
 ## Development Environment
 *Software and tools for creating a sandboxed development environment.*
