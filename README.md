@@ -93,6 +93,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [Aura PHP](http://auraphp.com/) - A framework of independent components.
 * [Phalcon](http://phalconphp.com/en/) - A framework implemented as a C extension.
 * [CakePHP](http://cakephp.org/) - A rapid application development framework.
+* [Nette](http://nette.org) - Another framework comprised of individual components.
 
 ## Framework Extras
 *Extras related to web development frameworks.*
