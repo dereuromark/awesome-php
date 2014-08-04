@@ -7,9 +7,10 @@ Please ensure your pull request adheres to the following guidelines:
 * Use the following format for libraries: \[LIBRARY\]\(LINK\) - DESCRIPTION.
 * Prefix duplicate library names with their vendor or namespace followed by a space: Foo\Bar would be Foo Bar.
 * New categories, or improvements to the existing categorisation are welcome.
-* Keep descriptions short and simple. 
+* Keep descriptions short and simple.
 * End all descriptions with a full stop/period.
 * Check your spelling and grammar.
 * Make sure your text editor is set to remove trailing whitespace.
+* Proposed libraries should ideally have 10+ stars.
 
 Thank you for your suggestions!
