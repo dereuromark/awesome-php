@@ -371,6 +371,7 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 
 * [Snappy](https://github.com/KnpLabs/snappy) - A PDF and image generation library.
 * [WKHTMLToPDF](https://github.com/antialize/wkhtmltopdf) - A tool to convert HTML to PDF.
+* [HTML2PDF](http://html2pdf.fr/) - Another tool to convert HTML to PDF.
 
 ## ORM and Datamapping
 *Libraries that implement object-relational mapping or datamapping techniques.*
@@ -612,6 +613,9 @@ A curated list of amazingly awesome PHP libraries, resources and shiny things.
 * [PHP Switch](https://github.com/jubianchi/phpswitch) - Another version manager.
 * [PHP Build](https://github.com/CHH/php-build) - Another PHP version installer.
 * [VirtPHP](http://virtphp.org/) - A tool for creating and managing isolated PHP environments.
+* [WAMPServer](http://www.wampserver.com/) - A Apache, Mysql, PHP manager.
+* [EasyPHP](http://www.easyphp.org/) - A Apache, Mysql, PHP manager.
+* [LAMP](http://doc.ubuntu-fr.org/lamp) - A Linux Apache, Mysql, PHP manager
 
 ## Development Environment
 *Software and tools for creating a sandboxed development environment.*
@@ -681,7 +685,7 @@ Various resources, such as books, websites and articles, for improving your PHP 
 
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php) - A book about the Linux command line by William Shotts.
 * [Understanding Computation](http://computationbook.com) - A book about computation theory by Tom Stuart.
-* [The Tangled Web â€” Securing Web Applications](http://www.amazon.ca/The-Tangled-Web-Securing-Applications/dp/1593273886) - A book about securing web applications by Michal Zalewski.
+* [The Tangled Web — Securing Web Applications](http://www.amazon.ca/The-Tangled-Web-Securing-Applications/dp/1593273886) - A book about securing web applications by Michal Zalewski.
 * [Elasticsearch: The Definitive Guide](http://www.elasticsearch.org/guide/) - A guide to working with Elasticsearch by Clinton Gormley and Zachary Tong.
 
 ## PHP Videos
@@ -703,7 +707,7 @@ Various resources, such as books, websites and articles, for improving your PHP 
 * [Composer Primer](http://daylerees.com/composer-primer) - A Composer primer.
 * [Composer Versioning](https://igor.io/2013/01/07/composer-versioning.html) - An article about Composer versioning.
 * [Composer Stability Flags](https://igor.io/2013/02/07/composer-stability-flags.html) - An article about Composer stability flags.
-* [Innocent Villagefolk or a Pillaginâ€™ Pirate?](http://blog.astrumfutura.com/2012/04/php-innocent-villagefolk-or-a-pillagin-pirate/) - An article about PHP taking ideas from other language.
+* [Innocent Villagefolk or a Pillagin’ Pirate?](http://blog.astrumfutura.com/2012/04/php-innocent-villagefolk-or-a-pillagin-pirate/) - An article about PHP taking ideas from other language.
 * [Predicting Random Numbers in PHP](http://blog.astrumfutura.com/2013/03/predicting-random-numbers-in-php-its-easier-than-you-think/) - An article about generating random numbers.
 * [A 20 Point List for Preventing XSS in PHP](http://blog.astrumfutura.com/2013/04/20-point-list-for-preventing-cross-site-scripting-in-php/) - An article about preventing XSS.
 * [PHP Sucks! But I Like It!](http://blog.ircmaxell.com/2012/04/php-sucks-but-i-like-it.html) - An article about the pros and cons of PHP.
