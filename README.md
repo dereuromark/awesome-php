@@ -26,7 +26,9 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 	- [Continuous Integration](#continuous-integration)
 	- [Documentation](#documentation)
 	- [Security](#security)
+	- [Passwords](#passwords)
 	- [Code Analysis](#code-analysis)
+	- [Debugging](#debugging)
 	- [Build Tools](#build-tools)
 	- [Task Runners](#task-runners)
 	- [Navigation](#navigation)
@@ -37,7 +39,7 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 	- [Logging](#logging)
 	- [E-commerce](#e-commerce)
 	- [PDF](#pdf)
-	- [ORM and Datamapping](#orm-and-datamapping)
+	- [Database](#database)
 	- [Migrations](#migrations)
 	- [NoSQL](#nosql)
 	- [Queue](#queue)
@@ -45,14 +47,15 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 	- [Command Line](#command-line)
 	- [Authentication](#authentication)
 	- [Markup](#markup)
-	- [Text and Numbers](#text-and-numbers)
+	- [Strings](#strings)
+	- [Numbers](#numbers)
 	- [Filtering and Validation](#filtering-and-validation)
 	- [REST and API](#rest-and-api)
 	- [Caching](#caching)
 	- [Data Structure and Storage](#data-structure-and-storage)
 	- [Notifications](#notifications)
 	- [Deployment](#deployment)
-	- [I18n](#i18n)
+	- [Internationalisation and Localisation](#internationalisation-and-localisation)
 	- [Third Party APIs](#third-party-apis)
 	- [Extensions](#extensions)
 	- [Miscellaneous](#miscellaneous)
@@ -98,6 +101,8 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 * [Laravel 4](http://laravel.com/) - Another PHP framework.
 * [Aura PHP](http://auraphp.com/) - A framework of independent components.
 * [Yii2](https://github.com/yiisoft/yii2/) - Another PHP framework.
+* [Nette](http://nette.org) - Another framework comprised of individual components.
+* [PPI Framework 2](http://www.ppi.io) - An interoperability framework.
 * [Phalcon](http://phalconphp.com/en/) - A framework implemented as a C extension.
 * [CakePHP](http://cakephp.org/) - A rapid application development framework.
 * [Nette](http://nette.org) - Another framework comprised of individual components.
@@ -257,6 +262,7 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 * [PHPCI](http://www.phptesting.org/) - An open source continuous integration platform for PHP.
 * [Sismo](http://sismo.sensiolabs.org/) - A continuous testing server library.
 * [Jenkins](http://jenkins-ci.org/) A continous integration platform with [PHP support](http://jenkins-php.org/index.html).
+* [JoliCi](https://github.com/jolicode/JoliCi) - A continuous integration client written in PHP and powered by Docker.
 
 ## Documentation
 *Libraries for generating project documentation.*
@@ -273,11 +279,6 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 * [RandomLib](https://github.com/ircmaxell/RandomLib) - A library for generating random numbers and strings.
 * [True Random](https://github.com/pixeloution/true-random) - A library that generates random numbers using [www.random.org](http://www.random.org/).
 * [SecurityMultiTool](https://github.com/padraic/SecurityMultiTool) - A PHP security library.
-* [Password Compat](https://github.com/ircmaxell/password_compat) - A compatibility library for the new PHP 5.5 password functions.
-* [phpass](http://www.openwall.com/phpass/) - A portable password hashing framework.
-* [PHP Password Lib](https://github.com/ircmaxell/PHP-PasswordLib) - A library for generating and validating passwords.
-* [Password Policy](https://github.com/ircmaxell/password-policy) - A password policy library for PHP and JavaScript.
-* [Password Validator](https://github.com/jeremykendall/password-validator) - A library for validating and upgrading password hashes.
 * [PHPSecLib](http://phpseclib.sourceforge.net/) - A pure PHP secure communications library.
 * [TCrypto](https://github.com/timoh6/TCrypto) - A simple encrypted key-value storage library.
 * [PHP IDS](https://github.com/PHPIDS/PHPIDS) - A structured PHP security layer.
@@ -285,10 +286,19 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 * [IniScan](https://github.com/psecio/iniscan) - A tool that scans PHP INI files for security.
 * [SensioLabs Security Check](https://security.sensiolabs.org/) - A web tool to check your Composer dependencies for security advisories.
 * [Zed](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - An integrated penetration testing tool for web applications.
+
+## Passwords
+*Libraries and tools for working with and storing passwords.*
+
+* [Password Compat](https://github.com/ircmaxell/password_compat) - A compatibility library for the new PHP 5.5 password functions.
+* [phpass](http://www.openwall.com/phpass/) - A portable password hashing framework.
+* [PHP Password Lib](https://github.com/ircmaxell/PHP-PasswordLib) - A library for generating and validating passwords.
+* [Password Policy](https://github.com/ircmaxell/password-policy) - A password policy library for PHP and JavaScript.
+* [Password Validator](https://github.com/jeremykendall/password-validator) - A library for validating and upgrading password hashes.
 * [Zxcvbn PHP](https://github.com/bjeavons/zxcvbn-php) - A realistic PHP password strength estimate library based on Zxcvbn JS.
 
 ## Code Analysis
-*Libraries and tools for analysing, parsing and manipulation codebases.*
+*Libraries and tools for analysing, parsing and manipulating codebases.*
 
 * [PHP Parser](https://github.com/nikic/PHP-Parser) - A PHP parser written in PHP.
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - A PHP VM implementation in PHP.
@@ -305,16 +315,21 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 * [UBench](https://github.com/devster/ubench) - A simple micro benchmark library.
 * [Athletic](https://github.com/polyfractal/athletic) - An annotation based benchmark framework.
 * [Mondrian](https://github.com/Trismegiste/Mondrian) - A code analysis tool using Graph Theory.
+* [Scrutinizer](https://scrutinizer-ci.com/) - A web tool to scrutinise PHP code.
+* [PHPLOC](https://github.com/sebastianbergmann/phploc) - A tool for quickly measuring the size of a PHP project.
+* [xHprof](https://github.com/phacility/xhprof) - Another profiling tool for PHP.
+* [PHPCheckstyle](https://github.com/jbrooksuk/phpcheckstyle) - A tool to help adhere to certain coding conventions.
+* [Tracy](https://github.com/nette/tracy) - Simple error detection, logging and time measuring library.
+## Debugging
+*Libraries and tools for debugging code.*
+
+* [xDebug](https://github.com/xdebug/xdebug) - A debug and profile tool for PHP.
 * [PHP Debug Bar](http://phpdebugbar.com/) - A debugging toolbar.
 * [PHP Console](https://github.com/Seldaek/php-console) - A web debugging console.
 * [Barbushin PHP Console](https://github.com/barbushin/php-console) - Another web debugging console using Google Chrome.
 * [PHPDBG](http://phpdbg.com/) - An interactive PHP debugger.
-* [Scrutinizer](https://scrutinizer-ci.com/) - A web tool to scrutinise PHP code.
-* [PHPLOC](https://github.com/sebastianbergmann/phploc) - A tool for quickly measuring the size of a PHP project.
-* [xDebug](https://github.com/xdebug/xdebug) - A debug and profile tool for PHP.
-* [xHprof](https://github.com/phacility/xhprof) - Another profiling tool for PHP.
-* [PHPCheckstyle](https://github.com/jbrooksuk/phpcheckstyle) - A tool to help adhere to certain coding conventions.
-* [Tracy](https://github.com/nette/tracy) - Simple error detection, logging and time measuring library.
+* [Tracy](https://github.com/nette/tracy) - A simple error detection, logging and time measuring library.
+
 ## Build Tools
 *Project build and automation tools.*
 
@@ -396,8 +411,8 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 * [WKHTMLToPDF](https://github.com/antialize/wkhtmltopdf) - A tool to convert HTML to PDF.
 * [HTML2PDF](http://html2pdf.fr/) - Another tool to convert HTML to PDF.
 
-## ORM and Datamapping
-*Libraries that implement object-relational mapping or datamapping techniques.*
+## Database
+*Libraries for interacting with databases using object-relational mapping (ORM) or datamapping techniques.*
 
 * [Doctrine](http://www.doctrine-project.org/) - A comprehensive DBAL and ORM.
 * [Doctrine Extensions](https://github.com/l3pp4rd/DoctrineExtensions) - A collection of Doctrine behavioural extensions.
@@ -475,31 +490,36 @@ Libraries to help manage database schemas and migrations.
 
 * [Decoda](http://milesj.me/code/php/decoda) - A lightweight markup parser library.
 * [PHP Markdown](https://github.com/michelf/php-markdown) - A Markdown parser.
+* [CommonMark PHP](https://github.com/thephpleague/commonmark) - A Markdown parser which supports the full [CommonMark spec](https://jgm.github.io/stmd/spec.html).
 * [Dflydev Markdown](https://github.com/dflydev/dflydev-markdown) - Another Markdown parser.
 * [Parsedown](https://github.com/erusev/parsedown) - Another Markdown parser.
 * [Ciconia](https://github.com/kzykhys/Ciconia) - Another Markdown parser that supports Github flavoured Markdown.
 * [Cebe Markdown](https://github.com/cebe/markdown) - An fast and extensible Markdown parser.
 * [HTML5 PHP](https://github.com/Masterminds/html5-php) - An HTML5 parser and serializer library.
 
-## Text and Numbers
-*Libraries for parsing and manipulating text and numbers.*
+## Strings
+*Libraries for parsing and manipulating strings.*
 
 * [ANSI to HTML5](https://github.com/sensiolabs/ansi-to-html) - An ANSI to HTML5 converter library.
 * [Patchwork UTF-8](https://github.com/nicolas-grekas/Patchwork-UTF8) - A portable library for working with UTF-8 strings.
 * [Hoa String](https://github.com/hoaproject/String) - Another UTF-8 string library.
 * [Stringy](https://github.com/danielstjules/Stringy) - A string manipulation library with multibyte support.
-* [Numbers PHP](https://github.com/powder96/numbers.php) - A library for working with numbers.
-* [Math](https://github.com/moontoast/math) - A library for working with large numbers.
 * [Color Jizz](https://github.com/mikeemoo/ColorJizz-PHP) - A library for manipulating and converting colours.
 * [UUID](https://github.com/ramsey/uuid) - A library for generating UUIDs.
 * [Slugify](https://github.com/cocur/slugify) - A library to convert strings to slugs.
 * [Urlify](https://github.com/jbroadway/urlify) - A PHP port of Django's URLify.js.
 * [Text](https://github.com/kzykhys/Text) - A text manipulation library.
+* [SQL Formatter](https://github.com/jdorn/sql-formatter/) - A library for formatting SQL statements.
+* [UA Parser](https://github.com/tobie/ua-parser/tree/master/php) - A library for parsing user agent strings.
+
+## Numbers
+*Libraries for working with numbers.*
+
+* [Numbers PHP](https://github.com/powder96/numbers.php) - A library for working with numbers.
+* [Math](https://github.com/moontoast/math) - A library for working with large numbers.
+* [ByteUnits](https://github.com/gabrielelana/byte-units) - A library to parse, format and convert byte units in binary and metric systems.
 * [PHP Units of Measure](https://github.com/triplepoint/php-units-of-measure) - A library for converting between units of measure.
 * [PHP Conversion](https://github.com/Crisu83/php-conversion) - Another library for converting between units of measure.
-* [SQL Formatter](https://github.com/jdorn/sql-formatter/) - A library for formatting SQL statements.
-* [ByteUnits](https://github.com/gabrielelana/byte-units) - A library to parse, format and convert byte units in binary and metric systems.
-* [UA Parser](https://github.com/tobie/ua-parser/tree/master/php) - A library for parsing user agent strings.
 * [LibPhoneNumber for PHP](https://github.com/giggsey/libphonenumber-for-php) - A PHP implementation of Google's phone number handling library.
 
 ## Filtering and Validation
@@ -521,6 +541,7 @@ Libraries to help manage database schemas and migrations.
 * [HAL](https://github.com/blongden/hal) - A Hypertext Application Language (HAL) builder library.
 * [Negotiation](https://github.com/willdurand/Negotiation) - A content negotiation library.
 * [Drest](https://github.com/leedavis81/drest) - A library for exposing Doctrine entities as REST resource endpoints.* [Luracast Restler](http://restler3.luracast.com) - A simple and effective multi-format Web API Server.
+* [Restler](https://github.com/Luracast/Restler) - A lightweight framework to expose PHP methods as RESTful web API.
 ## Caching
 *Libraries for caching data.*
 
@@ -536,7 +557,9 @@ Libraries to help manage database schemas and migrations.
 * [Serializer](https://github.com/schmittjoh/serializer) - A library for serialising and de-serialising data.
 * [PHP Object Storage](https://github.com/herrera-io/php-object-storage) - A library for object storage.
 * [Fractal](https://github.com/php-loep/fractal) - A library for converting complex data structures to JSON output.
+* [Totem](http://github.com/Wisembly/Totem) - A library to manage and create data changesets.
 * [PINQ](https://github.com/TimeToogo/Pinq) - A real Linq library for PHP.
+* [JsonMapper](https://github.com/netresearch/jsonmapper) - A library that maps nested JSON structures onto PHP classes.
 ## Notifications
 *Libraries for working with notification software.*
 
@@ -546,14 +569,15 @@ Libraries to help manage database schemas and migrations.
 * [Notificator](https://github.com/namshi/notificator) - A lightweight notification library.
 
 ## Deployment
+*Libraries for project deployment.*
 
 * [Pomander](https://github.com/tamagokun/pomander) - A deployment tool for PHP applications.
 * [Rocketeer](https://github.com/Anahkiasen/rocketeer) - A fast and easy deployer for the PHP world.
 * [Envoy](https://github.com/laravel/envoy) - A tool to run SSH tasks with PHP.
 * [Plum](https://github.com/aerialls/Plum) - A deployer library.
 
-## I18n
-* Libraries for I18n (Internationalization) and L10n (Localization)*
+## Internationalisation and Localisation
+*Libraries for Internationalization (I18n) and Localization (L10n).*
 
 * [Aura.Intl](https://github.com/auraphp/Aura.Intl)
 
@@ -627,6 +651,7 @@ Libraries to help manage database schemas and migrations.
 * [Lambda PHP](https://github.com/igorw/lambda-php) - A Lambda calculus interpreter in PHP.
 * [Country List](https://github.com/umpirsky/country-list) - A list of all countries with names and ISO 3166-1 codes.
 * [PHP-GPIO](https://github.com/ronanguilloux/php-gpio) - A library for playing with the Raspberry PI's GPIO pins.
+* [Alias](https://github.com/fuelphp/alias) - A class aliasing library.
 * [SmsSender](https://github.com/Carpe-Hora/SmsSender) - A SMS sending library.* [print_o](https://github.com/koriym/print_o) - An object graph visualizer.
 # Software
 *Software for creating a development environment.*
@@ -727,6 +752,7 @@ Various resources, such as books, websites and articles, for improving your PHP 
 * [Elasticsearch: The Definitive Guide](http://www.elasticsearch.org/guide/) - A guide to working with Elasticsearch by Clinton Gormley and Zachary Tong.
 * [Eloquent JavaScript](http://eloquentjavascript.net/) - A book about JavaScript programming by Marijn Haverbeke.
 * [Vagrant Cookbook](https://leanpub.com/vagrantcookbook) A book about creating Vagrant environments by Erika Heidi.
+* [Pro Git](http://git-scm.com/book/en/v2) - A book about Git by Scott Chacon and Ben Straub.
 
 ## PHP Videos
 *Fantastic PHP-related videos.*
