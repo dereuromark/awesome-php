@@ -320,6 +320,7 @@ Please see [CONTRIBUTING](https://github.com/ziadoz/awesome-php/blob/master/CONT
 * [xHprof](https://github.com/phacility/xhprof) - Another profiling tool for PHP.
 * [PHPCheckstyle](https://github.com/jbrooksuk/phpcheckstyle) - A tool to help adhere to certain coding conventions.
 * [Tracy](https://github.com/nette/tracy) - Simple error detection, logging and time measuring library.
+
 ## Debugging
 *Libraries and tools for debugging code.*
 
@@ -542,6 +543,7 @@ Libraries to help manage database schemas and migrations.
 * [Negotiation](https://github.com/willdurand/Negotiation) - A content negotiation library.
 * [Drest](https://github.com/leedavis81/drest) - A library for exposing Doctrine entities as REST resource endpoints.* [Luracast Restler](http://restler3.luracast.com) - A simple and effective multi-format Web API Server.
 * [Restler](https://github.com/Luracast/Restler) - A lightweight framework to expose PHP methods as RESTful web API.
+
 ## Caching
 *Libraries for caching data.*
 
@@ -560,6 +562,7 @@ Libraries to help manage database schemas and migrations.
 * [Totem](http://github.com/Wisembly/Totem) - A library to manage and create data changesets.
 * [PINQ](https://github.com/TimeToogo/Pinq) - A real Linq library for PHP.
 * [JsonMapper](https://github.com/netresearch/jsonmapper) - A library that maps nested JSON structures onto PHP classes.
+
 ## Notifications
 *Libraries for working with notification software.*
 
